@@ -14,3 +14,4 @@ A scheduled Claude task runs every morning a little before 10 am Toronto time. I
 
 - `index.html` – the dashboard (single page, Chart.js from cdnjs)
 - `manifest.webmanifest`, `sw.js`, `icons/` – make it installable and readable offline
+- `scripts/sync_from_artifact.py` – copies the refreshed dashboard into `index.html` and keeps the app tags
